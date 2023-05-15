@@ -50,7 +50,9 @@
   <div id='test'>
 
   ## Testing
-  Each of the below 3 fields are qaccessible via api requests using insomnia.
+  <br>
+
+  ### Each of the below 3 fields are accessible via api requests using insomnia.
   Categories:<br>
      GET   api/categories -     will retrieve all the categories from the categories field in your database.<br>
      GET   api/categories/:id - will retrieve the category of the id you selected.<br>
@@ -78,18 +80,25 @@
    <div id='images'>
 
   ## Images
-  Starting point, this is the first input query you will be asked. a message will appear if you successfully connected to the database. "Connected to WORK_CMS database"
-  <img src= ''>
+  Get all the data from a standard get request
+  <img src= 'Project/images/get_all.png'>
   <br>
 
-  Viewing requests, returned sql queries will be displayed like below
-  <img src= ''>
+  Get data for a specific ID.
+  <img src= 'Project/images/get_byId.png'>
   <br>
   
-  Updating requests, will return the success data. and will return a "Entry Added" if the entry was successfull
-  <img src= ''>
+  Updating data by ID
+  <img src= 'Project/images/update_byId.png'>
   <br>
   
+  Creating new data 
+  <img src= 'Project/images/Post_data.png'>
+  <br>
+
+   Deleting data 
+  <img src= 'Project/images/delete_data.png'>
+  <br>
   </div>
 
   <br>
